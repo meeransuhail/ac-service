@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Repair Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>AC Repair & Maintenance</h1>
+        <p>Reliable & Affordable Air Conditioner Services</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>AC Installation</h3>
+            <p>We provide professional installation of all types of air conditioners.</p>
+        </div>
+        <div class="service">
+            <h3>AC Repair</h3>
+            <p>Quick and efficient repair services to fix your AC issues.</p>
+        </div>
+        <div class="service">
+            <h3>AC Maintenance</h3>
+            <p>Regular servicing to keep your AC running smoothly.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AC Repair Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
